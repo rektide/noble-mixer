@@ -1,0 +1,22 @@
+{
+	"name": "node-physical-web",
+	"version": "1.0.0",
+	"description": "Physical Web Bluetooth Low Energy/BLE ambient webserver detection client/server for node.js",
+     "keywords": ["Physical Web", "BLU", "ambient", "ubicomp", "pervasive", "ubiquotous", "discovery", "bluetooth"],
+	"main": "node-physical-web.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rektide/node-physical-web"
+	},
+	"author": "rektide de la faye",
+	"license": "X",
+	"bugs": {
+		"url": "https://github.com/rektide/node-physical-web/issues"
+	},
+	"dependencies": {
+		"bleno": "^0.1.8"
+	}
+}
