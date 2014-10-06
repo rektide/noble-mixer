@@ -1,22 +1,32 @@
 {
-	"name": "node-physical-web",
+	"name": "noble-mixer",
 	"version": "1.0.0",
-	"description": "Physical Web Bluetooth Low Energy/BLE ambient webserver detection client/server for node.js",
-     "keywords": ["Physical Web", "BLU", "ambient", "ubicomp", "pervasive", "ubiquotous", "discovery", "bluetooth"],
-	"main": "node-physical-web.js",
+	"description": "A memoized, extensible plugmixed Noble BLE and Bleno",
+	"keywords": [
+		"BLE",
+		"ambient",
+		"ubicomp",
+		"pervasive",
+		"ubiquotous",
+		"discovery",
+		"bluetooth",
+		"plugmix"
+	],
+	"main": "noble-mixer.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/rektide/node-physical-web"
+		"url": "https://github.com/rektide/noble-mixer"
 	},
 	"author": "rektide de la faye",
 	"license": "X",
 	"bugs": {
-		"url": "https://github.com/rektide/node-physical-web/issues"
+		"url": "https://github.com/rektide/noble-mixer/issues"
 	},
 	"dependencies": {
-		"bleno": "^0.1.8"
+		"bleno": "^0.1.8",
+		"noble": "^0.3.5"
 	}
 }
