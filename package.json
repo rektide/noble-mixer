@@ -2,10 +2,23 @@
 	"name": "noble-mixer",
 	"version": "1.0.0",
 	"description": "Extensible plugmixed version of Node-BLE library Noble",
-	"keywords": ["BLE", "ambient", "ubicomp", "pervasive", "ubiquotous", "discovery", "bluetooth", "plugmixer", "plugmix", "local", "link-local", "commons"],
+	"keywords": [
+		"BLE",
+		"ambient",
+		"ubicomp",
+		"pervasive",
+		"ubiquotous",
+		"discovery",
+		"bluetooth",
+		"plugmixer",
+		"plugmix",
+		"local",
+		"link-local",
+		"commons"
+	],
 	"main": "noble-mixerer.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "tape-harmony test/*js"
 	},
 	"author": "rektide de la faye",
 	"license": "X",
@@ -17,7 +30,12 @@
 		"url": "https://github.com/rektide/noble-mixer/issues"
 	},
 	"dependencies": {
-		"bleno": "^0.1.8"
+		"bleno": "^0.1.8",
+		"memoizee": "^0.3.7",
+		"noble": "^0.3.5"
 	},
-	"homepage": "https://github.com/rektide/noble-mixer"
+	"homepage": "https://github.com/rektide/noble-mixer",
+	"devDependencies": {
+		"tape-harmony": "^1.0.1"
+	}
 }
